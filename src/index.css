@@ -9,16 +9,20 @@ body {
 }
 
 main {
-  padding: 36px;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
   display: flex;
   align-items: center;
-  height: 65px;
+  height: 10vh;
   background: linear-gradient(90deg, #ff0000 1.18%, #fcfcfc 100%);
   color: white;
-  padding: 20px;
+  padding: 0 20px 0 20px;
+
 }
 
 .header--image {
@@ -26,7 +30,7 @@ main {
 }
 
 .header--title {
-  font-size: 1.25rem;
+  font-size: 2vh;
   margin-right: auto;
 }
 
@@ -44,6 +48,8 @@ main {
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
   margin-bottom: 17px;
+  width: 75vw;
+  height: 15vh;
 }
 
 .form--input {
@@ -51,6 +57,7 @@ main {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  font-size: 1.5vh;
 }
 
 .form--button {
@@ -65,6 +72,9 @@ main {
 
 .meme {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .meme--image {
@@ -116,4 +126,5 @@ main {
 
 #loading--image{
   border-radius: 50vw;
+  width: 50%;
 }
